@@ -1,5 +1,10 @@
 import re
 
+TRAFFIC_SIGNS = {
+    "annotation_path": "./qwenvl/data/traffic_signs.json",
+    "data_path": "/home/user/data",
+}
+
 # Define placeholders for dataset paths
 CAMBRIAN_737K = {
     "annotation_path": "PATH_TO_CAMBRIAN_737K_ANNOTATION",
@@ -27,6 +32,7 @@ VIDEOCHATGPT = {
 }
 
 data_dict = {
+    "traffic_signs": TRAFFIC_SIGNS,
     "cambrian_737k": CAMBRIAN_737K,
     "cambrian_737k_pack": CAMBRIAN_737K_PACK,
     "mp_doc": MP_DOC,
