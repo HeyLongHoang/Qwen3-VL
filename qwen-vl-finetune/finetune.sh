@@ -11,7 +11,7 @@ NPROC_PER_NODE=$(nvidia-smi --list-gpus | wc -l)
 # ======================
 # Path Configuration
 # ======================
-MODEL_PATH="Qwen/Qwen3-VL-48-Instruct"
+MODEL_PATH="Qwen/Qwen3-VL-8B-Instruct"
 OUTPUT_DIR="./checkpoints"
 CACHE_DIR="./cache"
 
